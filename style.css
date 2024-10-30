@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Baskerville", serif;
+}
+
+#bgVideo{
+    position: fixed;
+    width: 100%;
+    object-fit: cover;
+}
+
+.weatherFrame{
+    position: relative;
+    padding: 20px;
+    margin-top: 20%;
+    width: 100%;
+    border: 10px;
+    border-radius: 10px;
+    background: linear-gradient(150deg,#2E3192 ,#1BFFFF);
+}
+
+.search{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.search input{
+    margin-right: 10px;
+}
+
+.weatherResult{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.weatherDetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.humidity, .wind{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.details{
+    margin-left: 10px;
+}
